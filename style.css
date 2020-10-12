@@ -1,0 +1,107 @@
+h1{
+	text-align: center;
+  font-weight: 650;
+  letter-spacing: -1.5pt;
+  color: #90c9ad;
+}
+
+h2{
+	text-align: center;
+  font-weight: 450;
+	font-size: 14pt;
+  color:#6faa8c;
+}
+
+li{
+    color: #cccccc;
+}
+p{
+    color: #eeeeee;
+}
+
+@keyframes woah {
+  from {background-color: #141414;
+  border-radius: 5px;}
+  to {background-color: #90c9ad; border-radius: 10px;}
+}
+
+button {
+  background-color: #141414;
+	border: 0.5px solid;
+  border-color: #292929; 
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+	width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	border-radius: 5px;
+}
+
+button:hover {
+  background-color: #90c9ad;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	border-radius: 10px;
+  animation-name: woah;
+  animation-duration: 0.3s;
+}
+
+button:active {
+  background-color: #48b681;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+	border-radius: 10px;
+}
+
+.smalltext{
+	font-size: 9pt;
+	text-align: center;
+}
+
+body{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 15%;
+	margin-right: 15%;
+  font-weight: 550;
+  font-family: Inter, sans-serif;
+  background-color: #141414;
+}
+
+a{
+  color: #66a4f0;
+}
+a:hover{
+  color: #1c20ff;
+}
+a:active{
+  color:#48b681;
+}
+
+section{
+  background-color: #0e0e0e;
+  border-color: #292929;
+  border: 1px solid;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px
+}
+
+img {
+    width:25%;
+		height:25%;
+		text-align: center;
+		justify-content: center;
+		padding-bottom: 15px;
+}
+
+footer{
+  color:white;
+}
